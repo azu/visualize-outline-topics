@@ -178,6 +178,7 @@ function App() {
             <Head>
                 <title>Visualize Outline Topics</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <link rel="canonical" href="https://visualize-outline-topics.vercel.app/" />
             </Head>
 
             <Stack direction="row" divider={<Divider orientation="vertical" flexItem />} spacing={2}>
