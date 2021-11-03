@@ -121,7 +121,7 @@ function App() {
     }, []);
     useEffect(() => {
         setHash(outlineText);
-    }, [outlineText]);
+    }, [outlineText, setHash]);
     useEffect(() => {
         const itemCountMap = new Map<string, number>();
         const parseResults = parseList(outlineText);
