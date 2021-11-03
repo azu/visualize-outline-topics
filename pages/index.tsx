@@ -108,7 +108,7 @@ const DEFAULT_OUTLINE = `
 - Backend
 - TypeScript
 - Microservices
-- CDN Failover
+- CDN fallover
 
 `.trimStart();
 

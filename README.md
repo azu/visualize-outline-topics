@@ -4,17 +4,34 @@ Visualize outline's topics.
 
 ## Usage
 
-1. Visit 
+1. Visit
+2. Input outline as Markdown
 
-## Changelog
+Example:
 
-See [Releases page](https://github.com/azu/visualize-outline-topics/releases).
+```markdown
 
-## Running tests
+## Article1 Topics
 
-Install devDependencies and Run `npm test`:
+- Frontend
+- JavaScript
+- TypeScript
+- CSS
+- CDN
+- MicroFrontend
 
-    npm test
+## Article2 Topics
+
+- Backend
+- TypeScript
+- Microservices
+- CDN fallover
+```
+
+## Development
+
+    yarn install
+    yarn dev
 
 ## Contributing
 
