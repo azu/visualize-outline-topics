@@ -1,7 +1,7 @@
 import { parseList } from "../components/outliner/parse";
 import { ChangeEventHandler, useCallback, useEffect, useState } from "react";
 import Head from "next/head";
-import { createTheme, Divider, List, ListItem, ListItemText } from "@mui/material";
+import { createTheme, Divider, List, ListItem, ListItemText, Typography } from "@mui/material";
 import Paper from "@mui/material/Paper";
 import Stack from "@mui/material/Stack";
 import { styled } from "@mui/material/styles";
@@ -9,6 +9,7 @@ import produce from "immer";
 import { distance } from "fastest-levenshtein";
 import { includes } from "../components/outliner/includes";
 import { useHash } from "../hooks/useHash";
+import { Box } from "@mui/system";
 
 const theme = createTheme();
 
@@ -76,14 +77,16 @@ const OutlineItem = (props: OutlineItemProps) => {
 };
 const Outline = (props: OutlineProps) => {
     return (
-        <div style={{ width: "240px" }}>
-            <h1>{props.title}</h1>
+        <Box sx={{ width: 240, maxWidth: 500 }}>
+            <Typography variant="h5" component="div" gutterBottom>
+                {props.title}
+            </Typography>
             <List>
                 {props.items.map((item) => {
                     return <OutlineItem key={item.title} {...item} onHover={props.onHover} />;
                 })}
             </List>
-        </div>
+        </Box>
     );
 };
 
