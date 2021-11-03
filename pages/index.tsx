@@ -97,7 +97,9 @@ const DEFAULT_OUTLINE = `
 ## Article1 Topics
 
 - Frontend
+- JavaScript
 - TypeScript
+- CSS
 - CDN
 - MicroFrontend
 
