@@ -34,7 +34,7 @@
     "isolatedModules": true
   },
   "include": [
-    "src/**/*"
+    "**/*"
   ],
   "exclude": [
     ".git",
