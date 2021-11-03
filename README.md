@@ -1,16 +1,10 @@
 # visualize-outline-topics
 
-Visualize outline&#39;s topics.
-
-## Install
-
-Install with [npm](https://www.npmjs.com/):
-
-    npm install visualize-outline-topics
+Visualize outline's topics.
 
 ## Usage
 
-- [ ] Write usage instructions
+1. Visit 
 
 ## Changelog
 
