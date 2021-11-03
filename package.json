@@ -21,10 +21,8 @@
   ],
   "scripts": {
     "dev": "next dev",
-    "build": "tsc -p . && tsc -p ./tsconfig.module.json",
     "start": "next start",
     "lint": "next lint",
-    "test": "mocha \"test/**/*.ts\"",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "prepare": "git config --local core.hooksPath .githooks",
     "watch": "tsc -p . --watch",
