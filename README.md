@@ -14,8 +14,7 @@ Example:
 ## Article1 Topics
 
 - Frontend
-- JavaScript
-- TypeScript
+- JavaScript to TypeScript
 - CSS
 - CDN
 - MicroFrontend
@@ -25,7 +24,7 @@ Example:
 - Backend
 - TypeScript
 - Microservices
-- CDN fallover
+- CDN
 ```
 
 ## Development
