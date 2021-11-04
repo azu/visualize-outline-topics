@@ -4,7 +4,7 @@ Visualize outline's topics.
 
 ## Usage
 
-1. Visit
+1. Visit <https://visualize-outline-topics.vercel.app/>
 2. Input outline as Markdown
 
 Example:
